@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halloween Registratie</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Creepster', cursive;
+            background-color: #252323;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        .page-content {
+            flex: 1;
+        }
+        .card {
+            font-family: '', cursive;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #99262642;
+            color:#d00b0b;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #ff5733;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .btn-primary {
+            background-color: #ff5733;
+            border-color: #ff5733;
+            color: #d00b0b;
+            font-weight: bold;
+        }
+        .container {
+            color: #d00b0b;
+        }
+        .footer {
+            margin-top: auto;
+            padding-top: 20px;
+            text-align: center;
+            flex: 1;
+        }
+    </style>
+</head>
+  <body>
+    <div class="page-content">
+      <h1>Halloween Registratie</h1>
+      <div class="container">
+          <div class="row"> 
+              <div class="col-md-6">
+                  <h2>Leopoldsburg Halloween Tocht</h2>
+                  <p>31/10/2026</p>
+                  <img src="Hand-drawn-design-halloween-Pumpkin-cat-on-transparent-background-PNG.avif" class="img-fluid" alt="Halloween Image">
+              </div>
+              <div class="col-md-6">
+                  <div class="card">
+                      <label for="name">Naam:</label>
+                      <input type="text" id="name" name="name" class="form-control">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" class="form-control">
+                      <label for="phone">Telefoonnummer:</label>
+                      <input type="tel" id="phone" name="phone" class="form-control">
+                      <label for="persons">Aantal personen:</label>
+                      <input type="number" id="persons" name="persons" class="form-control">
+                      <label for="timeslot">Tijdslot:</label>
+                      <select id="timeslot" name="timeslot" class="form-control">
+                          <option value="18:00">18:00</option>
+                          <option value="18:30">18:30</option>
+                          <option value="19:00">19:00</option>
+                          <option value="19:30">19:30</option>
+                          <option value="20:00">20:00</option>
+                      </select>
+                      <label for="notes">Opmerkingen:</label>
+                      <textarea id="notes" name="notes" class="form-control"></textarea>
+                      <button type="submit" class="btn btn-primary mt-3">Verzenden</button>
+                      <form class="row g-3 needs-validation" novalidate>
+                </div>
+    </div>
+
+<footer class="footer">
+            <p>&copy; 2026 Halloween Leopoldsburg. Alle rechten voorbehouden.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>  </body>
+</body>
+</html>
